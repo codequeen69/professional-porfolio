@@ -6,7 +6,7 @@ function About (){
         <section>
             
             <h1>Allow Me to Introduce Myself...</h1>
-            <img src={camilleImage} className='my-2' />
+            <img src={camilleImage} className='my-2' alt='me' />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima iste optio qui commodi dolorum
             ducimus aliquid placeat eaque maiores, itaque ullam laboriosam corrupti. Sed pariatur unde deleniti
             veritatis quibusdam?
