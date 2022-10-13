@@ -55,8 +55,8 @@ function Portfolio(props) {
                 {projects.map((project, i) => {
                     return(
                         <div className="project">
-                            <h2>{project.name}</h2>
                         <li key={project.id}>
+                        <h2>{project.name}</h2>
                             <img
                             src={require(`../../assets/${project.id}.png`)}
                             alt={project.name}

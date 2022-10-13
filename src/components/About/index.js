@@ -5,9 +5,9 @@ function About (){
     return(
         <section>
             
-            <h1>Allow Me to Introduce Myself...</h1>
-            <img src={camilleImage} className='my-2' alt='me' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima iste optio qui commodi dolorum
+            <h1 className='h1-tag'>Allow Me to Introduce Myself...</h1>
+            <img src={camilleImage} className="my-2 about-meimg" alt='me' />
+            <p className="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima iste optio qui commodi dolorum
             ducimus aliquid placeat eaque maiores, itaque ullam laboriosam corrupti. Sed pariatur unde deleniti
             veritatis quibusdam?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos illo quasi ipsam, rerum modi recusandae

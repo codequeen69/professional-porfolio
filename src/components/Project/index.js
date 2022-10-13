@@ -10,8 +10,8 @@ function Project ({ onClose, currentProject}) {
     <img src={require(`../../assets/${id}.png`)} alt="current project" 
     width='800' height='456'/>
     <p>
-      {github}
-      {site}
+     <a className='git' href={github}>Github</a>
+      <a className='site' href={site}>Website</a>
     </p>
     <button onClick={onClose} type="button">
       Close this modal

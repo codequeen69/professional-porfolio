@@ -1,3 +1,6 @@
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+
+
 * {
   margin:0;
   padding:0;
@@ -43,27 +46,113 @@ header h1 a:hover {
   background-color: var(--primary-color);
   padding: 5px;
 }
-header nav {
+header nav ul{
   margin: 15px 10px;
 }
-header nav ul{
+ header nav ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-header nav ul a:hover {
+header nav ul li {
+  padding: 10px 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+header nav li span:hover {
   background-color: var(--primary-color);
   padding: 2px;
+}
+.h1-tag{
+  font-size: 40px;
+}
+.about-meimg {
+  border-radius: 50%;
+  padding: 30px;
+}
+.about-me {
+  font-size: 50 px;
+  line-height: 1.5;
+  padding: 30px;
 }
 .project{
   padding:50px ;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  list-style: none;
+}
+.git{
+  margin:5px;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000
+}
+.git:hover{
+background-color: var(--secondary-color);
+}
+.site{
+  margin:5px;
+  font-size: 25px;
+  text-decoration: none;
+  color:#000000
+}
+.site:hover{
+  background-color: var(--secondary-color);
+}
+form {
+  width: 40%;
 }
 
+input {
+  font-size: 1rem;
+  padding: .25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  margin: 5px;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+button {
+	background: var(--primary);
+	border: 3;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 
+}
+.resume{
+  font-size: 30px;
+}
+.resume a{
+  text-decoration: none;
+  color: var(--secondary-color)
+}
+.proficient{
+  text-align: center;
+  font-size: 40px;
+  line-height:200%;
+
+}
 /*footer*/
 #page-container {
   position: relative;
@@ -80,4 +169,27 @@ footer {
   width: 100%;
   height: 5rem;            /* Footer height */
   background-color: #d8bfd8;
+  padding: 35px 50px;
+}
+.copy{
+  text-align: right;
+  font-size: 20px;
+}
+.github-icon{
+  width: 50px;
+  height:50px;
+  color:#696969;
+  margin:5px;
+}
+.linkedin-icon{
+  width: 50px;
+  height:50px;
+  color:#696969;
+  margin:5px;
+}
+.spotify-icon{
+  width: 50px;
+  height:50px;
+  color:#696969;
+  margin:5px;
 }

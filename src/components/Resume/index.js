@@ -4,7 +4,8 @@ function Resume() {
     const resumepdf = require('../../assets/resume-2022.docx')
     return (
         <section>
-            <p>View and Dowload my <span><a href={resumepdf} target='blank'>Resume</a></span></p>
+            <p className="resume">View and Dowload my <span><a href={resumepdf} target='blank'>Resume</a></span></p>
+            <div className='proficient'>
             <h1>My Proficiencies:</h1>
             <ul>
             <h2>Front End:</h2>
@@ -25,6 +26,7 @@ function Resume() {
             <li>MongoDB</li>
             <li>Mongoose</li>
             </ul>
+            </div>
         </section>
     );
 }
