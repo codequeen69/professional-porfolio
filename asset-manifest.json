@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/professional-porfolio/static/css/main.3584202f.css",
+    "main.js": "/professional-porfolio/static/js/main.622e027f.js",
+    "static/js/787.10c1ab8b.chunk.js": "/professional-porfolio/static/js/787.10c1ab8b.chunk.js",
+    "static/media/6.png": "/professional-porfolio/static/media/6.9141a6dd56c4ffd9ce1b.png",
+    "static/media/1.png": "/professional-porfolio/static/media/1.68fa1aad7f2aba241213.png",
+    "static/media/4.png": "/professional-porfolio/static/media/4.c7679fc37cd92d830f06.png",
+    "static/media/3.png": "/professional-porfolio/static/media/3.f70f8ea0445c7f8e4d32.png",
+    "static/media/2.png": "/professional-porfolio/static/media/2.461e2f571004f2baf6af.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/professional-porfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/5.png": "/professional-porfolio/static/media/5.1d92aaedf3586a4bffe8.png",
+    "static/media/fontawesome-webfont.eot": "/professional-porfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/professional-porfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/professional-porfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/professional-porfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/profile.jpg": "/professional-porfolio/static/media/profile.16a530be2aa6f56e4abc.jpg",
+    "static/media/resume-2022.docx": "/professional-porfolio/static/media/resume-2022.f393cd187169863330a3.docx",
+    "index.html": "/professional-porfolio/index.html",
+    "main.3584202f.css.map": "/professional-porfolio/static/css/main.3584202f.css.map",
+    "main.622e027f.js.map": "/professional-porfolio/static/js/main.622e027f.js.map",
+    "787.10c1ab8b.chunk.js.map": "/professional-porfolio/static/js/787.10c1ab8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3584202f.css",
+    "static/js/main.622e027f.js"
+  ]
+}
