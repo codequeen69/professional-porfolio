@@ -13,10 +13,11 @@ For this project I wanted to create a professional portfolio for potential emplo
 ![Screen Shot 2022-10-12 at 9 46 59 PM](https://user-images.githubusercontent.com/104512547/195487189-7a7c4102-7216-4953-ae76-8d5928203a5b.png)
 
 ## Website
+https://codequeen69.github.io/professional-porfolio/
 
 ## Repository
 https://github.com/codequeen69/professional-porfolio.git
 
 ## Contributions
-Made By Camille Howe
+Made By Camille Howe with help from their study buddy Bryan Nolasco!
 ### ©️2022
