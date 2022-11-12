@@ -6,14 +6,14 @@ function About (){
         <section>
             
             <h1 className='h1-tag'>Allow Me to Introduce Myself...</h1>
+            <div>
             <img src={camilleImage} className="my-2 about-meimg" alt='me' />
-            <p className="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima iste optio qui commodi dolorum
-            ducimus aliquid placeat eaque maiores, itaque ullam laboriosam corrupti. Sed pariatur unde deleniti
-            veritatis quibusdam?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos illo quasi ipsam, rerum modi recusandae
-            nesciunt impedit earum iusto explicabo. Doloribus officia similique recusandae laboriosam, quis enim omnis
-            aperiam!</p>
-            
+            <p className="about-me">Hello! My name is Camille Howe and I am a recent graduate of the 
+            UW Extensions coding bootcamp which makes me a very new full-stack web developer. Although I'm less than a year 
+            into my coding journey, my accomplishment of finishing the bootcamp has shown me that I can set and accomplish
+            my goals. The bootcamp has given me experience with HTML, CSS, JavaScript, Node.js, Express.js, React.js, SQL and NoSQL databases. 
+            I feel confident that I would be an asset to any web development team! Thanks for stopping by! </p>
+            </div>
         </section>
     );
 

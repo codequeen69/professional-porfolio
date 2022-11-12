@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 function Nav(props) {
     console.log(props);
     const [navTab] = useState([
@@ -22,8 +21,9 @@ function Nav(props) {
     const [currentNavTab, setCurrentNavTab] = useState(navTab[0])
 
     return (
-        <nav>
-            <ul>
+        <nav className='navbar navbar-expand-lg'>
+            <div className='container-fluid'>
+            <ul className='flex-row'>
                 {navTab.map((category) => (
                     <li
                         className={`${currentNavTab.name === category.name && 'navActive'}`}
@@ -39,8 +39,9 @@ function Nav(props) {
                     </li>
                 ))}
             </ul>
+            </div>
         </nav>
     );
 }
 
-export default Nav;
+export default Nav ;
