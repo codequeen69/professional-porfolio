@@ -2,13 +2,14 @@ import React from 'react';
 
 
 function Project ({ onClose, currentProject}) {
-    const {id, name, github, site } = currentProject
+    const {id, name, description, github, site } = currentProject
     return(
         <div className='modalBackdrop'>
             <div className="modalContainer">
     <h3 className="modalTitle">{name}</h3>
     <img src={require(`../../assets/${id}.png`)} alt="current project" 
     width='800' height='456'/>
+    <p>{description}</p>
     <p>
      <a className='git' href={github}>Github</a>
       <a className='site' href={site}>Website</a>
