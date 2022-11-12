@@ -12,7 +12,6 @@ function Header(props) {
             <Nav
              setCurrentPage={setCurrentPage}
              currentPage={currentPage}
-             className='navbar navbar-expand-lg'
             />
            
         </header>
