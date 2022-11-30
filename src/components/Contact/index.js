@@ -55,6 +55,7 @@ function Contact() {
                     </div>
                 )}
                 <button type='submit'>Submit</button>
+                <p>*Or email me at crhowe90@gmail.com</p>
             </form>
 
         </section>

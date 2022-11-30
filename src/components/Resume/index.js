@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Resume() {
-    const resumepdf = require('../../assets/resume-2022.docx')
+    const resumepdf = require('../../assets/Resume-2022-doc.docx')
     return (
         <section>
             <p className="resume">View and Dowload my <span><a href={resumepdf} target='blank'>Resume</a></span></p>

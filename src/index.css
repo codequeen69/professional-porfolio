@@ -22,17 +22,38 @@ body {
 header {
   background-color: var(--secondary-color);
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  height: 70px;
+
 }
+header nav{
+  width:62%;
+  font-size: 24px;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+}
+header nav ul li {
+  padding: 10px 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+header nav li span:hover {
+  background-color: var(--primary-color);
+  padding: 2px;
+}
+
 header h1 {
   font-weight: bold;
   font-size: 40px;
   text-decoration: none;
   color: var(--tertiary-color);
   line-height: 65px;
-  padding: 10p
+  padding: 10px;
 }
 header h1 a {
   font-weight: bold;
@@ -46,25 +67,13 @@ header h1 a:hover {
   background-color: var(--primary-color);
   padding: 5px;
 }
-header nav ul{
-  margin: 15px 10px;
+
+.header-div{
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 7px;
 }
- header nav ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-header nav ul li {
-  padding: 10px 15px;
-  font-size: 30px;
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-header nav li span:hover {
-  background-color: var(--primary-color);
-  padding: 2px;
-}
+
 .h1-tag{
   font-size: 40px;
 }
@@ -80,28 +89,74 @@ header nav li span:hover {
 .project{
   padding:50px ;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   list-style: none;
+}
+/*modal*/
+.modalBackdrop{
+  background: rgba(0, 0, 0, .65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.modalContainer {
+  background: #494949;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modalDescription {
+  color: #ffffff;
+  font-size: 18px;
+  width: 83%;
+  margin: 28px auto 20px auto;
+}
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.modalPic{
+  width: auto;
+  height: 650px;
 }
 .git{
   margin:5px;
   font-size: 25px;
   text-decoration: none;
-  color:#000000
+  color:#000000;
+  background: var(--secondary-color);
+  border-radius: 5px;
 }
 .git:hover{
-background-color: var(--secondary-color);
+  color:white
 }
+
 .site{
   margin:5px;
   font-size: 25px;
   text-decoration: none;
-  color:#000000
+  color:#000000;
+  background: var(--secondary-color);
+  border-radius: 5px;
+  
 }
 .site:hover{
-  background-color: var(--secondary-color);
+  color:white;
 }
+
+/*Contact Form*/
 form {
   width: 40%;
 }
@@ -192,4 +247,29 @@ footer {
   height:50px;
   color:#696969;
   margin:5px;
+}
+@media screen and (max-width: 1224px) {
+  .modalPic {
+    height: 450px;
+}
+
+.modalTitle {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 575px) {
+  header h1{
+    padding: 10px;
+  }
+  header nav ul{
+    flex-wrap: wrap;
+  }
+  header nav ul li{
+    margin: 0 10px 0 10px
+  }
+  
+  .modalPic{
+    height:250px;
+  }
 }

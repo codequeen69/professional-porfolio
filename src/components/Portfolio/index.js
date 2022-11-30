@@ -64,6 +64,7 @@ function Portfolio(props) {
     return (
         <section>
             {isProjectOpen && (<Project currentProject={currentProject} onClose={toggleModal}/>)}
+            
             <ul>
                 {projects.map((project, i) => {
                     return(
@@ -81,8 +82,8 @@ function Portfolio(props) {
                             />
                         </li>
                         </div>
-
-                    )
+                )
+                    
                 })}
             </ul>
 
