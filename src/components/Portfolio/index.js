@@ -46,7 +46,7 @@ function Portfolio(props) {
             name:"iReadIt",
             description:"This was my second group project of bootcamp. IReadIt is an online book review website where logged in users can add a book, and add a review to books others have added. We used JavaScript, a SQL database using MySQL and Sequelize, and Express Handlebars to render our server side data on to the client side. ",
             github:"https://github.com/Boywondr84/iReadIt.git",
-            site:"https://immense-ravine-74376.herokuapp.com/"
+            site:"https://desolate-brushlands-23848.herokuapp.com/"
         },
         {
             id:7,
